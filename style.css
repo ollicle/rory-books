@@ -1,0 +1,38 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
+  margin: 2em auto;
+  padding: 2rem;
+  max-width: 36rem;
+}
+
+.cover {
+  background-color: #07F673;
+  padding: 2rem;
+  border: solid 1px #0C4220;
+}
+
+h1 {
+  font-size: 300%;
+  color: #373fff;
+}
+
+img {
+  width: 100%;
+}
+
+figure {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+nav > *:last-child {
+  text-align: right;
+  margin-left: auto;
+}
